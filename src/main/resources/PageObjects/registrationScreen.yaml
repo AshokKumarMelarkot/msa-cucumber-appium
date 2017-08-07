@@ -1,0 +1,26 @@
+﻿pageName: registrationScreen
+locator:
+ inputUsername:
+  typeOfLocator: id
+  attributeValue: "io.selendroid.testapp:id/inputUsername"
+ inputEmail:
+  typeOfLocator: id
+  attributeValue: "io.selendroid.testapp:id/inputEmail"
+ inputPassword:
+  typeOfLocator: id
+  attributeValue: "io.selendroid.testapp:id/inputPassword"
+ userID:
+  typeOfLocator: id
+  attributeValue: "io.selendroid.testapp:id/inputName"
+ preferedProgrammingLanguage:
+  typeOfLocator: id
+  attributeValue: "io.selendroid.testapp:id/input_preferedProgrammingLanguage"
+ acceptAdds:
+  typeOfLocator: id
+  attributeValue: "io.selendroid.testapp:id/input_adds"
+ btnRegisterUser:
+  typeOfLocator: id
+  attributeValue: "io.selendroid.testapp:id/btnRegisterUser"
+ buttonRegisterUser:
+  typeOfLocator: id
+  attributeValue: "io.selendroid.testapp:id/buttonRegisterUser"

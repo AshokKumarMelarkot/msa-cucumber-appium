@@ -1,0 +1,8 @@
+﻿pageName: landingScreen
+locator:
+ my_text_field:
+  typeOfLocator: id
+  attributeValue: "io.selendroid.testapp:id/my_text_field"
+ startUserRegistration:
+  typeOfLocator: id
+  attributeValue: "io.selendroid.testapp:id/startUserRegistration"

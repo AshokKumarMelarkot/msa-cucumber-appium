@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<pageName>sampleMobilePage</pageName>
+<locator>
+<my_text_field>
+    <typeOfLocator>id</typeOfLocator>
+    <attributeValue>io.selendroid.testapp:id/my_text_field</attributeValue>
+</my_text_field>
+<startUserRegistration>
+    <typeOfLocator>id</typeOfLocator>
+    <attributeValue>io.selendroid.testapp:id/startUserRegistration</attributeValue>
+</startUserRegistration>
+<inputUsername>
+    <typeOfLocator>id</typeOfLocator>
+    <attributeValue>io.selendroid.testapp:id/inputUsername</attributeValue>
+</inputUsername>
+<inputEmail>
+    <typeOfLocator>id</typeOfLocator>
+    <attributeValue>io.selendroid.testapp:id/inputEmail</attributeValue>
+</inputEmail>
+<inputPassword>
+    <typeOfLocator>id</typeOfLocator>
+    <attributeValue>io.selendroid.testapp:id/inputPassword</attributeValue>
+</inputPassword>
+<inputName>
+    <typeOfLocator>id</typeOfLocator>
+    <attributeValue>io.selendroid.testapp:id/inputName</attributeValue>
+</inputName>
+</locator>
