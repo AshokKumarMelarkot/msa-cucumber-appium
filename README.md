@@ -1,13 +1,16 @@
 # msa-testng-appium
 
-How to set up:
+<b>How to set up:</b>
+<ul>
+<li>Install geny motion and create virtual device
+<li>Install geny motion and create virtual device
+<li>Install android sdk in your machine , find the virtual device on machine (adb devices)
+<li>Install your app (selendroid) on connected device (adb install <sample.apk>)
+<li>Provide  the path of apk file on your machine in properties file
+<li>Provide the name of your device in properties file
+<li>Then run the Test Runner class
+</ul>
 
-install geny motion and create virtual device
-install android sdk in your machine , find the virtual device on machine (adb devices)
-install your app (selendroid) on connected device (adb install <sample.apk>)
-provide  the path of apk file on your machine in properties file
-provide the name of your device in properties file
-then run the Test Runner class
 
 How to write tests :
 
