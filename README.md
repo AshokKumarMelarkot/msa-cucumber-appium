@@ -1,4 +1,4 @@
-# msa-testng-appium
+# msa-Cucumber-appium
 
 <b>How to write tests :</b>
 <ul>
