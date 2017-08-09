@@ -27,7 +27,17 @@
 <br>
 <br>
 <br>
-<b>How to set up:</b>
+<b font-size=20>How to set up:</b>
+<br>
+<br>
+<b font-size=20>Prerequisites :</b>
+<ul>
+<li>&#9658;&nbsp;&nbsp;Java should be installed in machine
+<li>&#9658;&nbsp;&nbsp;Configure maven
+<li>&#9658;&nbsp;&nbsp;Install Android SDK
+<li>&#9658;&nbsp;&nbsp;Install Genymotion
+<li>&#9658;&nbsp;&nbsp;Install any Editor like IntelliJ or Eclipse...etc.
+</ul>
 <ul>
 <li>Install geny motion and create virtual device
 <br><br>
@@ -41,6 +51,7 @@
 <br><br>
 <img src="https://user-images.githubusercontent.com/19589895/29074332-83f2bfac-7c6c-11e7-9da2-c2130562f1ca.png" height="400" width="600">
 <br><br>
+<li>Clone the repo and import on any Editor (intellij,Eclipse,..),setup maven and do mvn install in oredr to get the dependencies.
 <li>Provide  the path of apk file on your machine in properties file
 <li>Provide the name of your device in properties file located in src/main/resources/conf.properties
 <br><br>
