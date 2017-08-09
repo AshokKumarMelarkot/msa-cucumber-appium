@@ -81,5 +81,27 @@ public class WebElementInteractions extends Assert {
         }
     }
 
+    protected String readText(String screen, String locatorName) throws Throwable {
+        long timeStamp = new Date().getTime();
+        String text = "";
+
+        try {
+            text = MobileApp.MobileScreens.get(screen).getElement(locatorName, MobileApp.getDriver()).getText();
+            MobileApp.logger.log(LogStatus.PASS, "Returned  text for locator " + locatorName + " in " + screen);
+        } catch (NullPointerException e) {
+            FileUtils.copyFile(((TakesScreenshot) MobileApp.getDriver()).getScreenshotAs(OutputType.FILE), new File(filePath + File.separator + "screenshot_" + timeStamp + ".png"));
+
+            MobileApp.logger.log(LogStatus.FAIL, "Unable to find element " + locatorName + " in " + screen , MobileApp.logger.addScreenCapture(filePath+File.separator+"screenshot_" + timeStamp + ".png"));
+            throw e.getCause();
+        } catch (Exception e) {
+            FileUtils.copyFile(((TakesScreenshot) MobileApp.getDriver()).getScreenshotAs(OutputType.FILE), new File(filePath + File.separator + "screenshot_" + timeStamp + ".png"));
+
+            MobileApp.logger.log(LogStatus.FAIL, "Failed to read value of element " + locatorName + " in " + screen , MobileApp.logger.addScreenCapture(filePath+File.separator+"screenshot_" + timeStamp + ".png"));
+            throw e.getCause();
+        }
+
+        return text;
+    }
+
 
 }
