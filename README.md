@@ -32,8 +32,9 @@
 <br>
 <b font-size=20>Prerequisites :</b>
 <ul>
-<li>&#9658;&nbsp;&nbsp;Java should be installed in machine
+<li>&#9658;&nbsp;&nbsp;Java should be installed in machine and configured.
 <li>&#9658;&nbsp;&nbsp;Configure maven
+<li>&#9658;&nbsp;&nbsp;Install Nodejs
 <li>&#9658;&nbsp;&nbsp;Install Android SDK
 <li>&#9658;&nbsp;&nbsp;Install Genymotion
 <li>&#9658;&nbsp;&nbsp;Install any Editor like IntelliJ or Eclipse...etc.
