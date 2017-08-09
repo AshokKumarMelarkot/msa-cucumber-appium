@@ -10,7 +10,7 @@
 <br>
 <img src="https://user-images.githubusercontent.com/19589895/29115996-1d1ab8d8-7d17-11e7-990f-6509203f4d9b.png" height="400" width="600">
 <li>Write step definition
-(definition should use helper function (key) to call action and provide in util and should provide referance of screen and locator)
+(definition should use helper function (key) to call action and provide in util and should provide reference of screen and locator)
 <br>
 <img src="https://user-images.githubusercontent.com/19589895/29116005-24e35944-7d17-11e7-8de6-3d97359c45f2.png" height="400" width="600">
 <li>Run the TestRunner calss as testng class or run testng.xml or sample.feature file.
