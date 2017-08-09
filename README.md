@@ -29,8 +29,15 @@
 <b>How to write tests :</b>
 <ul>
 <li>Define feature file (src/main/resources/pageObjects)
+<br>
+<img src="https://user-images.githubusercontent.com/19589895/29115988-1775c21a-7d17-11e7-9c0f-2fa9455b0aed.png">
 <li>Place your mobile screen objects in form of yaml files under page objects (src/main/resources/pageObjects)
+<br>
+<img src="https://user-images.githubusercontent.com/19589895/29115996-1d1ab8d8-7d17-11e7-990f-6509203f4d9b.png">
 <li>Write step definition <br>
 (definition should use helper function (key) to call action and provide in util and should provide referance of screen and locator)
-<li>Run the TestRunner calss as testng class or run testng.xml.
+<img src="https://user-images.githubusercontent.com/19589895/29116005-24e35944-7d17-11e7-8de6-3d97359c45f2.png">
+<li>Run the TestRunner calss as testng class or run testng.xml or sample.feature file.
+<br>
+<img src="https://user-images.githubusercontent.com/19589895/29116026-2e73660c-7d17-11e7-918b-e23dc2ecba7a.png">
 </ul>
