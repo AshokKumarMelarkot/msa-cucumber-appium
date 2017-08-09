@@ -3,7 +3,7 @@
 <b>How to set up:</b>
 <ul>
 <li>Install geny motion and create virtual device
-![image](https://user-images.githubusercontent.com/19589895/29074321-76b0d428-7c6c-11e7-901e-958e18d64223.png)
+![Screenshot](https://user-images.githubusercontent.com/19589895/29074321-76b0d428-7c6c-11e7-901e-958e18d64223.png)
 <li>Install android sdk in your machine , find the virtual device on machine (adb devices)
 ![image](https://user-images.githubusercontent.com/19589895/29074327-7e05706c-7c6c-11e7-9715-461185f8e029.png)
 <li>Install your app (selendroid) on connected device (adb install <sample.apk>)
