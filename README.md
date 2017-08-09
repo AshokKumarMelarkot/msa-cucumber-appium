@@ -1,4 +1,5 @@
-# msa-Cucumber-appium
+# msa-cucumber-appium
+<b font-size=10>Framework to test native apps using testng-cucumber-selenium along with appium server and genymotion emulator</b>
 
 <b>How to write tests :</b>
 <ul>
