@@ -2,7 +2,8 @@
 <b font-size=10>Framework to test native apps using testng-cucumber-selenium along with appium server and genymotion emulator</b>
 <b font-size=10>Provided example test with Andriod App, We can automate IOS app as well by just modifying the properties and config</b>
 <br>
-<b>How to write tests :</b>
+<br>
+<b font-size=20>How to write tests :</b>
 <ul>
 <li>Define feature file (src/main/resources/pageObjects)
 <br>
