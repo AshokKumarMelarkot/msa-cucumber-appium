@@ -9,7 +9,7 @@
 <br><br>
 <img src="https://user-images.githubusercontent.com/19589895/29074327-7e05706c-7c6c-11e7-9715-461185f8e029.png">
 <br><br>
-<li>Install your app (selendroid) on connected device (adb install <sample.apk>)
+<li>Install your app (selendroid) on connected device (adb install selendroid.apk)
 <li>Start the Appium server and make sure your virtual device is up and running
 <br><br>
 <img src="https://user-images.githubusercontent.com/19589895/29074332-83f2bfac-7c6c-11e7-9da2-c2130562f1ca.png">
