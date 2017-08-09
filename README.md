@@ -1,5 +1,29 @@
 # msa-testng-appium
 
+<b>How to write tests :</b>
+<ul>
+<li>Define feature file (src/main/resources/pageObjects)
+<br>
+<img src="https://user-images.githubusercontent.com/19589895/29115988-1775c21a-7d17-11e7-9c0f-2fa9455b0aed.png" height="400" width="600">
+<li>Place your mobile screen objects in form of yaml files under page objects (src/main/resources/pageObjects)
+<br>
+<img src="https://user-images.githubusercontent.com/19589895/29115996-1d1ab8d8-7d17-11e7-990f-6509203f4d9b.png" height="400" width="600">
+<li>Write step definition
+(definition should use helper function (key) to call action and provide in util and should provide referance of screen and locator)
+<br>
+<img src="https://user-images.githubusercontent.com/19589895/29116005-24e35944-7d17-11e7-8de6-3d97359c45f2.png" height="400" width="600">
+<li>Run the TestRunner calss as testng class or run testng.xml or sample.feature file.
+<br>
+<img src="https://user-images.githubusercontent.com/19589895/29116026-2e73660c-7d17-11e7-918b-e23dc2ecba7a.png" height="400" width="600">
+<br><br>
+<li>The test creates the regular html report and extended report as well
+<br><br>
+<img src="https://user-images.githubusercontent.com/19589895/29116400-49bfc422-7d18-11e7-8ef5-c26383eba111.png" height="400" width="600">
+<img src="https://user-images.githubusercontent.com/19589895/29116373-32abe126-7d18-11e7-88b1-e2fd88dab007.png" height="400" width="600">
+</ul>
+<br>
+<br>
+<br>
 <b>How to set up:</b>
 <ul>
 <li>Install geny motion and create virtual device
@@ -26,11 +50,3 @@
 </ul>
 
 
-<b>How to write tests :</b>
-<ul>
-<li>Define feature file (src/main/resources/pageObjects)
-<li>Place your mobile screen objects in form of yaml files under page objects (src/main/resources/pageObjects)
-<li>Write step definition <br>
-(definition should use helper function (key) to call action and provide in util and should provide referance of screen and locator)
-<li>Run the TestRunner calss as testng class or run testng.xml.
-</ul>
