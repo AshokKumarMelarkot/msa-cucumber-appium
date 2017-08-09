@@ -40,4 +40,9 @@
 <li>Run the TestRunner calss as testng class or run testng.xml or sample.feature file.
 <br>
 <img src="https://user-images.githubusercontent.com/19589895/29116026-2e73660c-7d17-11e7-918b-e23dc2ecba7a.png">
+<br><br>
+<li>The test creates the regular html report and extended report as well
+<br><br>
+<img src="https://user-images.githubusercontent.com/19589895/29074351-96a0b726-7c6c-11e7-81a9-975de910163d.png" height="400" width="600">
+<img src="https://user-images.githubusercontent.com/19589895/29074366-9ea882a0-7c6c-11e7-9536-c7abbb42dd0f.png" height="400" width="600">
 </ul>
