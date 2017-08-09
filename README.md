@@ -44,6 +44,6 @@
 <br><br>
 <li>The test creates the regular html report and extended report as well
 <br><br>
-<img src="https://user-images.githubusercontent.com/19589895/29074351-96a0b726-7c6c-11e7-81a9-975de910163d.png" height="400" width="600">
-<img src="https://user-images.githubusercontent.com/19589895/29074366-9ea882a0-7c6c-11e7-9536-c7abbb42dd0f.png" height="400" width="600">
+<img src="https://user-images.githubusercontent.com/19589895/29116400-49bfc422-7d18-11e7-8ef5-c26383eba111.png" height="400" width="600">
+<img src="https://user-images.githubusercontent.com/19589895/29116373-32abe126-7d18-11e7-88b1-e2fd88dab007.png" height="400" width="600">
 </ul>
