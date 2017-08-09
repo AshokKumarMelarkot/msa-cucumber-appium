@@ -1,6 +1,9 @@
 # msa-cucumber-appium
-<b font-size=10>Framework to test native apps using testng-cucumber-selenium along with appium server and genymotion emulator</b>
-<b font-size=10>Provided example test with Andriod App, We can automate IOS app as well by just modifying the properties and config</b>
+&#9670;<b font-size=10>Framework to test native apps using testng-cucumber-selenium along with appium server and genymotion emulator</b>
+<br>
+&#9670;<b font-size=10>Provided example test with Andriod App, We can automate IOS app as well by just modifying the properties and config</b>
+<br>
+&#9670;<b font-size=10>We can run the tests on real device with same configuration by just replacing the device name with connected mobile device name</b>
 <br>
 <br>
 <b font-size=20>How to write tests :</b>
