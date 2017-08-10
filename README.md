@@ -18,6 +18,10 @@
 (definition should use helper function (key) to call action and provide in util and should provide reference of screen and locator)
 <br>
 <img src="https://user-images.githubusercontent.com/19589895/29116005-24e35944-7d17-11e7-8de6-3d97359c45f2.png" height="400" width="600">
+<li>Provide your configuration details like target appium server , target device, ....etc.The current configuration given for android.
+<br>
+<img src="https://user-images.githubusercontent.com/19589895/29156481-c7a36298-7dbf-11e7-9710-b4aab299d414.png" height="400" width="600">
+<br><br>
 <li>Run the TestRunner calss as testng class or run testng.xml or sample.feature file.
 <br>
 <img src="https://user-images.githubusercontent.com/19589895/29116026-2e73660c-7d17-11e7-918b-e23dc2ecba7a.png" height="400" width="600">
